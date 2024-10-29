@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">Pokedex</div>
+
+        <div class="Image">
+            <img id="Imagen" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" alt="" width="300" height="300">
+        </div>
+
+        <div class="Buttons">
+            <button class="button two" onclick="changeImg(-10)">&lt;&lt;</button>
+            <button class="button one" onclick="changeImg(-1)">&lt;</button>
+            <button class="button one" onclick="changeImg(1)">&gt;</button>
+            <button class="button two" onclick="changeImg(10)">&gt;&gt;</button>
+        </div>
+    </div>
+</body>
+</html>

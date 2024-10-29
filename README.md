@@ -1,1 +1,0 @@
-# pokedexRigby.github.io
